@@ -60,4 +60,9 @@ public class Email {
         this.mailboxCapacity = capacity;
     }
 
+    // Set the alternate email
+    public void setAlternateEmail(String altEmail) {
+        this.alternateEmail = altEmail;
+    }
+
 }
